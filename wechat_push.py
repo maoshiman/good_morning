@@ -14,13 +14,7 @@ OPENID_LIST = os.environ['OPENID_LIST'].split(';')
 TEMPLATE_ID = os.environ['TEMPLATE_ID']
 
 user_database = {
-    # "os3j01wDbtP7kLBGIP7v5KIUp-DE": {
-    #     "name": "阿毛",
-    #     "city": "西安",
-    #     "city_code": "101110101",  # 西安
-    #     "met_date": "2025-08-15"
-    # },
-    "os3j01wDbtP7kLBGIP7v5KIUp-DE": {
+    "os3j0188RDSi1eTJ9oNP9FZjrbIg": {
         "name": "Nana",
         "city": "天津",
         "city_code": "101030600",  # 北晨区
@@ -167,10 +161,10 @@ if __name__ == '__main__':
 
 
 
-# 今天是{{date.DATA}} {{week.DATA}}
-# 早上好呀，{{uname.DATA}} (＾▽＾)／ ～
-# 今天是认识的第{{met.DATA}}天(◕‿◕✿) ！
-# 又是元气满满的一天呢✧。٩(ˊωˋ)و✧*。～
+# 🌞{{date.DATA}} {{week.DATA}}
+# 📅早上好呀，{{uname.DATA}} (＾▽＾) ～
+# 🤗今天是认识的第{{met.DATA}}天(◕‿◕✿)～
+# ✨又是元气满满的一天呢✧。٩(ˊωˋ)～
 #
 # 🌆城市：{{city.DATA}}
 # ☁️天气：{{type.DATA}}
@@ -178,5 +172,5 @@ if __name__ == '__main__':
 # ❄️最低气温：{{low.DATA}}
 # 💭{{tip.DATA}}
 #
-# 🎊距离除夕剩余：{{cx.DATA}}天,(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧~
+# 🎊距离除夕还有{{cx.DATA}}天！(ﾉ◕ヮ◕)
 
