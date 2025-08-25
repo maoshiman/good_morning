@@ -1,10 +1,11 @@
 import os
-from datetime import datetime
 import datetime
 import requests
-from dotenv import load_dotenv
+# 本地运行时打开,提交代码时关闭
+# from dotenv import load_dotenv
+# load_dotenv()
 
-load_dotenv()
+
 # 从环境变量中读取配置（关键！为了安全，敏感信息不写死在代码里）
 APPID = os.environ['APPID']
 APPSECRET = os.environ['APPSECRET']
