@@ -20,6 +20,12 @@ user_database = {
         "city_code": "101030600",  # 北晨区
         "met_date": "2025-08-15"
     },
+    "os3j01wDbtP7kLBGIP7v5KIUp-DE":  {
+        "name": "Momo",
+        "city": "西安",
+        "city_code": "101110101",
+        "met_date": "2025-08-15"
+    }
 }
 
 
